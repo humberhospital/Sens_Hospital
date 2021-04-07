@@ -177,12 +177,17 @@
     <Compile Include="Migrations\202104040252149_InitialCreation.Designer.cs">
       <DependentUpon>202104040252149_InitialCreation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104070218444_volunteer_tables.cs" />
+    <Compile Include="Migrations\202104070218444_volunteer_tables.Designer.cs">
+      <DependentUpon>202104070218444_volunteer_tables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\About.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AppointmentBooking.cs" />
     <Compile Include="Models\Career.cs" />
     <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\CurrentVolunteerPositions.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\DoctorInfo.cs" />
     <Compile Include="Models\Donation.cs" />
@@ -197,6 +202,7 @@
     <Compile Include="Models\Practice.cs" />
     <Compile Include="Models\ReportsTable.cs" />
     <Compile Include="Models\UserInfo.cs" />
+    <Compile Include="Models\Volunteers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -276,6 +282,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202104040252149_InitialCreation.resx">
       <DependentUpon>202104040252149_InitialCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104070218444_volunteer_tables.resx">
+      <DependentUpon>202104070218444_volunteer_tables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

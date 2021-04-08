@@ -181,6 +181,10 @@
     <Compile Include="Migrations\202104070218444_volunteer_tables.Designer.cs">
       <DependentUpon>202104070218444_volunteer_tables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104080951305_add-migration useinfo.cs" />
+    <Compile Include="Migrations\202104080951305_add-migration useinfo.Designer.cs">
+      <DependentUpon>202104080951305_add-migration useinfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\About.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -285,6 +289,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104070218444_volunteer_tables.resx">
       <DependentUpon>202104070218444_volunteer_tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104080951305_add-migration useinfo.resx">
+      <DependentUpon>202104080951305_add-migration useinfo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

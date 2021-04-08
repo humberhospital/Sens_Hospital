@@ -14,8 +14,8 @@ namespace Sens_Hospital.Models
         public decimal DonationAmount { get; set; }
         public DateTime DonationDate { get; set; }
 
-        [ForeignKey("DonorInfo")]
-        public int DonorID { get; set; }
-        public virtual DonorInfo DonorInfo { get; set; }
+        [ForeignKey("UserInfo")]
+        public int UserID { get; set; }
+        public virtual UserInfo UserInfo { get; set; }
     }
 }

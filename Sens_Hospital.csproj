@@ -185,6 +185,10 @@
     <Compile Include="Migrations\202104080951305_add-migration useinfo.Designer.cs">
       <DependentUpon>202104080951305_add-migration useinfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104081955090_idenModelsVolunteer.cs" />
+    <Compile Include="Migrations\202104081955090_idenModelsVolunteer.Designer.cs">
+      <DependentUpon>202104081955090_idenModelsVolunteer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\About.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -292,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104080951305_add-migration useinfo.resx">
       <DependentUpon>202104080951305_add-migration useinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104081955090_idenModelsVolunteer.resx">
+      <DependentUpon>202104081955090_idenModelsVolunteer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

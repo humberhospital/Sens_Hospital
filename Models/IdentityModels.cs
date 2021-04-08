@@ -46,5 +46,7 @@ namespace Sens_Hospital.Models
         public DbSet<AppointmentBooking> AppointmentBookings { get; set; }
         public DbSet<DonorInfo> DonorInfos { get; set; }
         public DbSet<Donation> Donations { get; set; }
+        public DbSet<Volunteers> Volunteers { get; set; }
+        public DbSet<CurrentVolunteerPositions> CurrentVolunteerPositions { get; set; }
     }
 }

@@ -185,7 +185,6 @@
     <Compile Include="Migrations\202104080951305_add-migration useinfo.Designer.cs">
       <DependentUpon>202104080951305_add-migration useinfo.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Migrations\202104081857052_update04082021257.cs" />
     <Compile Include="Migrations\202104081857052_update04082021257.Designer.cs">
       <DependentUpon>202104081857052_update04082021257.cs</DependentUpon>
@@ -193,11 +192,10 @@
     <Compile Include="Migrations\202104081958087_nodir_donate04082021357.cs" />
     <Compile Include="Migrations\202104081958087_nodir_donate04082021357.Designer.cs">
       <DependentUpon>202104081958087_nodir_donate04082021357.cs</DependentUpon>
-=======
+	</Compile>
     <Compile Include="Migrations\202104081955090_idenModelsVolunteer.cs" />
     <Compile Include="Migrations\202104081955090_idenModelsVolunteer.Designer.cs">
       <DependentUpon>202104081955090_idenModelsVolunteer.cs</DependentUpon>
->>>>>>> 090c5bd8bad7796f39fc754110b7d5bf05a4ebb4
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\About.cs" />
@@ -312,16 +310,14 @@
     <EmbeddedResource Include="Migrations\202104080951305_add-migration useinfo.resx">
       <DependentUpon>202104080951305_add-migration useinfo.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\202104081857052_update04082021257.resx">
       <DependentUpon>202104081857052_update04082021257.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104081958087_nodir_donate04082021357.resx">
       <DependentUpon>202104081958087_nodir_donate04082021357.cs</DependentUpon>
-=======
+	</EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104081955090_idenModelsVolunteer.resx">
       <DependentUpon>202104081955090_idenModelsVolunteer.cs</DependentUpon>
->>>>>>> 090c5bd8bad7796f39fc754110b7d5bf05a4ebb4
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
